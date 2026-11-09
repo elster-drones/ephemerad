@@ -2,7 +2,7 @@ Source: vci-ephemeral
 Section: contrib/net
 Priority: extra
 Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: libc6-dev, debhelper (>= 9),
  dh-golang,
  dh-vci,
  golang-any:native,
